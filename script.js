@@ -21,7 +21,7 @@ var app = new Vue({
 			},
 			{
 				title: "August 22nd",
-				artist: "i love all the shades of you",
+				artist: "i love all your shades and hues",
 				url: "https://www.mboxdrive.com/colors.mp3",
 				image: "https://i.ibb.co/ZztgkYf/Whats-App-Image-2020-07-04-at-1-14-00-PM.jpg"
 			},
