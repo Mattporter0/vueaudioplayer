@@ -17,13 +17,13 @@ var app = new Vue({
 				title: "August 19",
 				artist: "re-freshed",
 				url: "https://www.mboxdrive.com/eyes intro.mp3",
-				image: "https://i.pinimg.com/564x/b2/d6/6c/b2d66c387f61dd60b3e3162252ff0638.jpg"
+				image: "https://i.ibb.co/SsCRnb4/aweyes.jpg"
 			},
 			{
 				title: "August 22nd",
 				artist: "i love all the shades of you",
 				url: "https://www.mboxdrive.com/colors.mp3",
-				image: "https://i.pinimg.com/564x/d9/d1/e9/d9d1e9b5f30f879724103e96c2327827.jpg"
+				image: "https://i.ibb.co/ZztgkYf/Whats-App-Image-2020-07-04-at-1-14-00-PM.jpg"
 			},
 			{
 				title: "September 2nd",
