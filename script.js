@@ -47,7 +47,7 @@ var app = new Vue({
 				title: "September 9th",
 				artist: "memories on loop",
 				url: "https://www.mboxdrive.com/rrp1.mp3",
-				image: "https://i.pinimg.com/564x/51/cc/2b/51cc2b8fc035d1977140a1246ec2c2be.jpg"
+				image: "https://i.ibb.co/1fM9dzt/Screenshot-2020-07-06-at-16-15-02.png"
 			}
 			
 		],
