@@ -15,38 +15,38 @@ var app = new Vue({
 		musicPlaylist: [
 			{
 				title: "August 19",
-				artist: "re-freshed",
-				url: "https://www.mboxdrive.com/eyes intro.mp3",
+				artist: "refreshed",
+				url: "https://audio.jukehost.co.uk/QR7pSQIjGxxtykjlXI8Ga9AoR7e9VYXT",
 				image: "https://i.ibb.co/SsCRnb4/aweyes.jpg"
 			},
 			{
 				title: "August 22nd",
-				artist: "i love all your shades and hues",
-				url: "https://www.mboxdrive.com/colors.mp3",
+				artist: "i love all the shades of you",
+				url: "https://audio.jukehost.co.uk/0Q1T8usQCp1GGzHrCQr83FvKprNGNJgB",
 				image: "https://i.ibb.co/ZztgkYf/Whats-App-Image-2020-07-04-at-1-14-00-PM.jpg"
 			},
 			{
 				title: "September 2nd",
 				artist: "found in translation",
-				url: "https://www.mboxdrive.com/tagalog version (online-audio-converter.com).mp3",
+				url: "https://audio.jukehost.co.uk/4a3YY2dEg7mJC88CnWRNd2aoWQ6nq2Dd",
 				image: "https://i.pinimg.com/564x/dd/fe/c5/ddfec54d1cdcd2164f5c61e840b44d30.jpg"
 			},
 			{
 				title: "September 5th",
-				artist: "sweeter by the day, i got all this nectar",
-				url: "https://www.mboxdrive.com/getting keyboard.mp3",
+				artist: "memories on loop",
+				url: "https://audio.jukehost.co.uk/4v5cXvcK8GQGmoyHYQrGFMKlYqn8TkzK",
 				image: "https://i.pinimg.com/564x/5f/aa/a8/5faaa8ce6e08ade426e8fe9b676804e5.jpg"
 			},
 			{
 				title: "September 9th",
 				artist: "vision",
-				url: "https://www.mboxdrive.com/vision.mp3",
+				url: "https://audio.jukehost.co.uk/X4Qfmdi8xiFbuE93i1eDESYRsSqqF76K",
 				image: "https://i.pinimg.com/564x/51/cc/2b/51cc2b8fc035d1977140a1246ec2c2be.jpg"
 			},
 			{
 				title: "September 9th",
-				artist: "memories on loop",
-				url: "https://www.mboxdrive.com/rrp1.mp3",
+				artist: "keyboard is comming!",
+				url: "https://audio.jukehost.co.uk/S1GwU5OEo1cQXobudvBXKhEFoG8XxSxu",
 				image: "https://i.ibb.co/1fM9dzt/Screenshot-2020-07-06-at-16-15-02.png"
 			}
 			
