@@ -219,17 +219,23 @@ function mobileCss(){
 	document.getElementById("mainpid").style.fontSize = "2rem";
 	document.getElementById("h3id").style.fontSize = "2rem";
 	
-	$(".title").css("font-size", "4rem");
+	$(".title").css("font-size", "3rem");
 	$(".artist").css("font-size", "1.5rem");
 	
 	setTimeout(function(){
-		$(".title").css("font-size", "4rem");
+		$(".title").css("font-size", "3rem");
 	$(".artist").css("font-size", "1.5rem");
 	},500);
 	
 	
 	$('.currentTime').css("font-size", "1.5rem");
 	$('.totalTime').css("font-size", "1.5rem");
+	
+	$('.fa').css("font-size", "30px");
+	$('.fa').css("padding", "20px");
+	$('.fa').css("width", "70px");
+	$('.fa').css("border-radius", "35px");
+	
 }
 function checkifmobile(){
 	console.log("inside check if mobile");
