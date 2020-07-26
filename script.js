@@ -236,6 +236,9 @@ function mobileCss(){
 	$('.fa').css("width", "70px");
 	$('.fa').css("border-radius", "35px");
 	
+	$('.audioPlayerList').css("height", "800px");
+	$('.audioPlayerList').css("width", "100%");
+	
 }
 function checkifmobile(){
 	console.log("inside check if mobile");
