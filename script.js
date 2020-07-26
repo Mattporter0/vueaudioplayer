@@ -203,9 +203,9 @@ if( isMobile.any() ){
 	document.getElementById("titleId").style.fontSize = "4rem";
 	document.getElementById("artistId").style.fontSize = "1.5rem";
 	
-	document.getElementById("playId").style.fontSize = "10rem";
-	document.getElementById("previousId").style.fontSize = "5rem";
-	document.getElementById("nextId").style.fontSize = "5rem";
+	//document.getElementById("playId").style.fontSize = "10rem";
+	//document.getElementById("previousId").style.fontSize = "5rem";
+	//document.getElementById("nextId").style.fontSize = "5rem";
 	
 	
 	
