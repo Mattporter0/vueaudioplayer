@@ -25,8 +25,8 @@
 		</a>
 	<div class="audioPlayerList" :class="{'isActive': isPlaylistActive}">
 		<div class="item" v-for="(item,index) in musicPlaylist" v-bind:class="{ 'isActive':isCurrentSong(index) }" v-on:click="changeSong(index),isPlaylistActive=!isPlaylistActive">
-			<p class="title" id="titleId">{{ item.title }}</p>
-			<p class="artist" id="artistId">{{ item.artist }}</p>
+			<p class="title">{{ item.title }}</p>
+			<p class="artist">{{ item.artist }}</p>
 		</div>
 		
 			<p class="debugToggle" v-on:click="toggleDebug()">debug: {{ debug }}</p>
@@ -42,10 +42,10 @@
 		</div>
 		<div class="albumDetails">
 			<transition name="slide-fade" mode="out-in">
-				<p class="title" :key="currentSong">{{ musicPlaylist[currentSong].title }}</p>
+				<p class="title" :key="currentSong"  id="titleId">{{ musicPlaylist[currentSong].title }}</p>
 			</transition>
 			<transition name="slide-fade" mode="out-in">
-				<p class="artist" :key="currentSong">{{ musicPlaylist[currentSong].artist }}</p>
+				<p class="artist" :key="currentSong"  id="artistId">{{ musicPlaylist[currentSong].artist }}</p>
 		</div>
 
 		<div class="playerButtons">
