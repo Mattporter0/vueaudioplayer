@@ -222,6 +222,12 @@ function mobileCss(){
 	$(".title").css("font-size", "4rem");
 	$(".artist").css("font-size", "1.5rem");
 	
+	setTimeout(function(){
+		$(".title").css("font-size", "4rem");
+	$(".artist").css("font-size", "1.5rem");
+	},500);
+	
+	
 	$('.currentTime').css("font-size", "1.5rem");
 	$('.totalTime').css("font-size", "1.5rem");
 }
