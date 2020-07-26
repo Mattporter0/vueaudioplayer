@@ -224,6 +224,9 @@ function mobileCss(){
 	
 	$(".title").css("font-size", "4rem");
 	$(".artist").css("font-size", "1.5rem");
+	
+	$('.currentTime').css("font-size", "1.5rem");
+	$('.totalTime').css("font-size", "1.5rem");
 }
 if( isMobile.any() ){
 	mobileCss();
