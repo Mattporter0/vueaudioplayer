@@ -45,7 +45,7 @@ var app = new Vue({
 			},
 			{
 				title: "September 9th",
-				artist: "keyboard is comming!",
+				artist: "keyboard is coming!",
 				url: "https://audio.jukehost.co.uk/S1GwU5OEo1cQXobudvBXKhEFoG8XxSxu",
 				image: "https://i.ibb.co/1fM9dzt/Screenshot-2020-07-06-at-16-15-02.png"
 			}
