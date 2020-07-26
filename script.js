@@ -192,8 +192,8 @@ var isMobile = {
     }
 };
 if( isMobile.any() ){
-	document.getElementById("app").style.width = "70%";
-	document.getElementById("app").style.minHeight = "60rem";
+	//document.getElementById("app").style.width = "70%";
+	//document.getElementById("app").style.minHeight = "60rem";
 	document.getElementById("playerAlbumArt").style.width = "100%";
 	document.getElementById("playerAlbumArt").style.height = "100%";
 }
