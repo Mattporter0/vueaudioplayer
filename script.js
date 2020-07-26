@@ -203,6 +203,8 @@ var app = new Vue({
 
 
 function mobileCss(){
+	
+	console.log("inside mobile css");
 	document.getElementById("app").style.width = "70%";
 	//document.getElementById("app").style.minHeight = "60rem";
 	document.getElementById("playerAlbumArt").style.width = "100%";
@@ -228,6 +230,11 @@ function mobileCss(){
 	$('.currentTime').css("font-size", "1.5rem");
 	$('.totalTime').css("font-size", "1.5rem");
 }
-if( isMobile.any() ){
-	mobileCss();
+function checkifmobile(){
+	console.log("inside check if mobile");
+	if( isMobile.any() ){
+		mobileCss();
+	}
 }
+checkifmobile();
+
