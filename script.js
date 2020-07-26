@@ -207,8 +207,9 @@ function mobileCss(){
 	document.getElementById("albumImageId").style.width = "100%";
 	document.getElementById("albumImageId").style.height = "500px";
 	
-	document.getElementById("titleId").style.fontSize = "3rem";
-	document.getElementById("artistId").style.fontSize = "1.5rem";
+	//document.getElementById("titleId").style.fontSize = "3rem";
+	//document.getElementById("artistId").style.fontSize = "1.5rem";
+	
 	
 	document.getElementById("playId").style.fontSize = "8rem";
 	document.getElementById("previousId").style.fontSize = "4rem";
