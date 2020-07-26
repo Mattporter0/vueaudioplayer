@@ -200,4 +200,8 @@ if( isMobile.any() ){
 	document.getElementById("albumImageId").style.width = "100%";
 	document.getElementById("albumImageId").style.height = "100%";
 	
+	document.getElementById("titleId").style.fontSize = "4rem";
+	document.getElementById("artistId").style.fontSize = "1.5rem";
+	
+	
 }
