@@ -33,7 +33,7 @@
 
 	</div>
 	<div class="audioPlayerUI" :class="{'isDisabled': isPlaylistActive}">
-		<div class="albumImage">
+		<div class="albumImage" id="albumImageId">
 			<transition name="ballmove" enter-active-class="animated zoomIn" leave-active-class="animated fadeOutDown" mode="out-in">
 				<!--<transition name="slide-fade" mode="out-in">-->
 				<img @load="onImageLoaded()" :src="musicPlaylist[currentSong].image" :key="currentSong" ondragstart="return false;" id="playerAlbumArt">
