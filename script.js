@@ -207,6 +207,8 @@ if( isMobile.any() ){
 	//document.getElementById("previousId").style.fontSize = "5rem";
 	//document.getElementById("nextId").style.fontSize = "5rem";
 	
-	
+	document.getElementById("h1id").style.fontSize = "3rem";
+	document.getElementById("mainpid").style.fontSize = "2rem";
+	document.getElementById("h3id").style.fontSize = "2rem";
 	
 }
