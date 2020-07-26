@@ -88,22 +88,16 @@ var app = new Vue({
 			this.isPlaylistActive = !this.isPlaylistActive;
 		},
 		nextSong: function() {
-			if( isMobile.any() ){
-				mobileCss();
-			}
+			checkifmobile();
 			if (this.currentSong < this.musicPlaylist.length - 1)
 				this.changeSong(this.currentSong + 1);
 		},
 		prevSong: function() {
-			if( isMobile.any() ){
-				mobileCss();
-			}
+			checkifmobile();
 			if (this.currentSong > 0) this.changeSong(this.currentSong - 1);
 		},
 		changeSong: function(index) {
-			if( isMobile.any() ){
-				mobileCss();
-			}
+			  checkifmobile();
 			var wasPlaying = this.currentlyPlaying;
 			this.imageLoaded = false;
 			if (index !== undefined) {
