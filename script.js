@@ -67,13 +67,22 @@ var app = new Vue({
 			this.isPlaylistActive = !this.isPlaylistActive;
 		},
 		nextSong: function() {
+			if( isMobile.any() ){
+				mobileCss();
+			}
 			if (this.currentSong < this.musicPlaylist.length - 1)
 				this.changeSong(this.currentSong + 1);
 		},
 		prevSong: function() {
+			if( isMobile.any() ){
+				mobileCss();
+			}
 			if (this.currentSong > 0) this.changeSong(this.currentSong - 1);
 		},
 		changeSong: function(index) {
+			if( isMobile.any() ){
+				mobileCss();
+			}
 			var wasPlaying = this.currentlyPlaying;
 			this.imageLoaded = false;
 			if (index !== undefined) {
@@ -191,7 +200,8 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-if( isMobile.any() ){
+
+function mobileCss(){
 	document.getElementById("app").style.width = "70%";
 	//document.getElementById("app").style.minHeight = "60rem";
 	document.getElementById("playerAlbumArt").style.width = "100%";
@@ -203,9 +213,9 @@ if( isMobile.any() ){
 	document.getElementById("titleId").style.fontSize = "4rem";
 	document.getElementById("artistId").style.fontSize = "1.5rem";
 	
-	document.getElementById("playId").style.fontSize = "10rem";
-	document.getElementById("previousId").style.fontSize = "5rem";
-	document.getElementById("nextId").style.fontSize = "5rem";
+	document.getElementById("playId").style.fontSize = "8rem";
+	document.getElementById("previousId").style.fontSize = "4rem";
+	document.getElementById("nextId").style.fontSize = "4rem";
 	
 	document.getElementById("h1id").style.fontSize = "3rem";
 	document.getElementById("mainpid").style.fontSize = "2rem";
@@ -213,4 +223,7 @@ if( isMobile.any() ){
 	
 	$(".title").css("font-size", "4rem");
 	$(".artist").css("font-size", "1.5rem");
+}
+if( isMobile.any() ){
+	mobileCss();
 }
