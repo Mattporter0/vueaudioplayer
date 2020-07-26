@@ -211,4 +211,6 @@ if( isMobile.any() ){
 	document.getElementById("mainpid").style.fontSize = "2rem";
 	document.getElementById("h3id").style.fontSize = "2rem";
 	
+	$(".title").css("font-size", "4rem");
+	$(".artist").css("font-size", "1.5rem");
 }
