@@ -220,11 +220,11 @@ function mobileCss(){
 	document.getElementById("h3id").style.fontSize = "2rem";
 	
 	$(".title").css("font-size", "3rem");
-	$(".artist").css("font-size", "1.5rem");
+	$(".artist").css("font-size", "2.5rem");
 	
 	setTimeout(function(){
 		$(".title").css("font-size", "3rem");
-	$(".artist").css("font-size", "1.5rem");
+	$(".artist").css("font-size", "2.5rem");
 	},500);
 	
 	
