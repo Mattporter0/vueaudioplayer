@@ -121,10 +121,10 @@
   border-left-color: black;
   padding-left: 1rem;
 }
-.audioPlayer .audioPlayerList .debugToggle {
+/*.audioPlayer .audioPlayerList .debugToggle {
   cursor: pointer;
   color: red;
-}
+} */
 .audioPlayer .audioPlayerUI {
   margin-top: 1.5rem;
   will-change: transform, filter;
