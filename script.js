@@ -32,7 +32,7 @@ var app = new Vue({
 		currentProgressBar: 0,
 		isPlaylistActive: false,
 		currentSong: 0,
-		debug: false,
+		/*debug: false, */
 		musicPlaylist: [
 			{
 				title: "August 19",
