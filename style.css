@@ -153,8 +153,8 @@
   font-size: 0.75rem;
   font-weight: none;
   color: #2d1895;
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms;
+  /* -webkit-transition-delay: 100ms;
+          transition-delay: 100ms; */
 }
 .audioPlayer .audioPlayerUI .albumImage {
   width: 17rem;
@@ -188,8 +188,8 @@
   outline: 0;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  /*-webkit-transition: 0.5s;
+  transition: 0.5s; */
 }
 .audioPlayer .audioPlayerUI .playerButtons .button.play {
   font-size: 4rem;
@@ -251,14 +251,14 @@
 .slide-fade-leave-active {
   -webkit-transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
   transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
-} */
+} 
 
 .slide-fade-enter,
 .slide-fade-leave-to {
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
   opacity: 0;
-}
+} */
 
 .fade-enter-active,
 .fade-leave-active {
