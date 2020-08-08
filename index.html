@@ -6,14 +6,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'><link rel="stylesheet" href="./style.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <header class="heading">
-	<h1>Tapes from Vivid </h1>
-	<p>(snippets of the vivid process)
-		<h3>Release Date October, 2020</h3>
+	<h1 id="h1id">Tapes from Vivid </h1>
+	<p id="mainpid">(snippets of the vivid process)
+		<h3 id="h3id">Release Date October, 2020</h3>
 		</p>
 </header>
 
@@ -25,15 +25,15 @@
 		</a>
 	<div class="audioPlayerList" :class="{'isActive': isPlaylistActive}">
 		<div class="item" v-for="(item,index) in musicPlaylist" v-bind:class="{ 'isActive':isCurrentSong(index) }" v-on:click="changeSong(index),isPlaylistActive=!isPlaylistActive">
-			<p class="title">{{ item.title }}</p>
-			<p class="artist">{{ item.artist }}</p>
+			<p class="title" id="titleId">{{ item.title }}</p>
+			<p class="artist" id="artistId">{{ item.artist }}</p>
 		</div>
 		
 			<p class="debugToggle" v-on:click="toggleDebug()">debug: {{ debug }}</p>
 
 	</div>
 	<div class="audioPlayerUI" :class="{'isDisabled': isPlaylistActive}">
-		<div class="albumImage">
+		<div class="albumImage" id="albumImageId">
 			<transition name="ballmove" enter-active-class="animated zoomIn" leave-active-class="animated fadeOutDown" mode="out-in">
 				<!--<transition name="slide-fade" mode="out-in">-->
 				<img @load="onImageLoaded()" :src="musicPlaylist[currentSong].image" :key="currentSong" ondragstart="return false;" id="playerAlbumArt">
@@ -42,20 +42,20 @@
 		</div>
 		<div class="albumDetails">
 			<transition name="slide-fade" mode="out-in">
-				<p class="title" :key="currentSong">{{ musicPlaylist[currentSong].title }}</p>
+				<p class="title" :key="currentSong"  id="titleId">{{ musicPlaylist[currentSong].title }}</p>
 			</transition>
 			<transition name="slide-fade" mode="out-in">
-				<p class="artist" :key="currentSong">{{ musicPlaylist[currentSong].artist }}</p>
+				<p class="artist" :key="currentSong"  id="artistId">{{ musicPlaylist[currentSong].artist }}</p>
 		</div>
 
 		<div class="playerButtons">
-			<a class="button" :class="{'isDisabled':(currentSong==0)}" v-on:click="prevSong()" title="Previous Song"><i class="zmdi zmdi-skip-previous"></i></a>
-			<a class="button play" v-on:click="playAudio()" title="Play/Pause Song">
+			<a class="button" :class="{'isDisabled':(currentSong==0)}" v-on:click="prevSong()" title="Previous Song" id="previousId"><i class="zmdi zmdi-skip-previous"></i></a>
+			<a class="button play" id="playId" v-on:click="playAudio()" title="Play/Pause Song">
 				<transition name="slide-fade" mode="out-in">
 					<i class="zmdi" :class="[currentlyStopped ? 'zmdi-stop' : (currentlyPlaying ? 'zmdi-pause-circle' : 'zmdi-play-circle')]" :key="1"></i>
 				</transition>
 			</a>
-			<a class="button" :class="{'isDisabled':(currentSong==musicPlaylist.length-1)}" v-on:click="nextSong()" title="Next Song"><i class="zmdi zmdi-skip-next"></i></a>
+			<a class="button" :class="{'isDisabled':(currentSong==musicPlaylist.length-1)}" v-on:click="nextSong()" title="Next Song"  id="nextId"><i class="zmdi zmdi-skip-next"></i></a>
 		</div>
 
 		<div class="currentTimeContainer" style="text-align:center">
@@ -67,7 +67,12 @@
 		<div class="currentProgressBar">
 			<div class="currentProgress" :style="{ width: currentProgressBar + '%' }"></div>
 		</div>
-			
+			<div class="socialicons">
+				<center>
+				<a href="https://facebook.com/augustwahh" target="_blank" class="fa fa-facebook"></a>
+				<a href="https://instagram.com/augustwahh" target="_blank" class="fa fa-instagram"></a>
+				</center>
+			</div>
 	</div>
 
 		
@@ -75,6 +80,7 @@
 </main>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js'></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js'></script><script  src="./script.js"></script>
 
 </body>

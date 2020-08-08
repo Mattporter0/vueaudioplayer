@@ -1,3 +1,24 @@
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
 var app = new Vue({
 	el: "#app",
 	data: {
@@ -45,7 +66,7 @@ var app = new Vue({
 			},
 			{
 				title: "September 9th",
-				artist: "keyboard is comming!",
+				artist: "keyboard is coming!",
 				url: "https://audio.jukehost.co.uk/S1GwU5OEo1cQXobudvBXKhEFoG8XxSxu",
 				image: "https://i.ibb.co/1fM9dzt/Screenshot-2020-07-06-at-16-15-02.png"
 			}
@@ -67,13 +88,16 @@ var app = new Vue({
 			this.isPlaylistActive = !this.isPlaylistActive;
 		},
 		nextSong: function() {
+			checkifmobile();
 			if (this.currentSong < this.musicPlaylist.length - 1)
 				this.changeSong(this.currentSong + 1);
 		},
 		prevSong: function() {
+			checkifmobile();
 			if (this.currentSong > 0) this.changeSong(this.currentSong - 1);
 		},
 		changeSong: function(index) {
+			  checkifmobile();
 			var wasPlaying = this.currentlyPlaying;
 			this.imageLoaded = false;
 			if (index !== undefined) {
@@ -170,4 +194,57 @@ var app = new Vue({
 	}
 	
 });
+
+
+function mobileCss(){
+	
+	console.log("inside mobile css");
+	document.getElementById("app").style.width = "70%";
+	//document.getElementById("app").style.minHeight = "60rem";
+	document.getElementById("playerAlbumArt").style.width = "100%";
+	document.getElementById("playerAlbumArt").style.height = "100%";
+	
+	document.getElementById("albumImageId").style.width = "100%";
+	document.getElementById("albumImageId").style.height = "500px";
+	
+	//document.getElementById("titleId").style.fontSize = "3rem";
+	//document.getElementById("artistId").style.fontSize = "1.5rem";
+	
+	
+	document.getElementById("playId").style.fontSize = "8rem";
+	document.getElementById("previousId").style.fontSize = "4rem";
+	document.getElementById("nextId").style.fontSize = "4rem";
+	
+	document.getElementById("h1id").style.fontSize = "3rem";
+	document.getElementById("mainpid").style.fontSize = "2rem";
+	document.getElementById("h3id").style.fontSize = "2rem";
+	
+	$(".title").css("font-size", "3rem");
+	$(".artist").css("font-size", "2.5rem");
+	
+	setTimeout(function(){
+		$(".title").css("font-size", "3rem");
+	$(".artist").css("font-size", "2.5rem");
+	},500);
+	
+	
+	$('.currentTime').css("font-size", "1.5rem");
+	$('.totalTime').css("font-size", "1.5rem");
+	
+	$('.fa').css("font-size", "30px");
+	$('.fa').css("padding", "20px");
+	$('.fa').css("width", "70px");
+	$('.fa').css("border-radius", "35px");
+	
+	$('.audioPlayerList').css("height", "800px");
+	$('.audioPlayerList').css("width", "100%");
+	
+}
+function checkifmobile(){
+	console.log("inside check if mobile");
+	if( isMobile.any() ){
+		mobileCss();
+	}
+}
+checkifmobile();
 
