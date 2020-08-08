@@ -42,9 +42,9 @@ var app = new Vue({
 			},
 			{
 				title: "August 22nd",
-				artist: "i love all the shades of you",
-				url: "https://audio.jukehost.co.uk/0Q1T8usQCp1GGzHrCQr83FvKprNGNJgB",
-				image: "https://i.ibb.co/ZztgkYf/Whats-App-Image-2020-07-04-at-1-14-00-PM.jpg"
+				artist: "synesthesia",
+				url: "https://audio.jukehost.co.uk/Azc6fN92GMLRLdnjD1BDcphMTzwoyB9U",
+				image: "https://ibb.co/S7GmQTn"
 			},
 			{
 				title: "September 2nd",
