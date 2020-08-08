@@ -35,41 +35,30 @@ var app = new Vue({
 		/*debug: false, */
 		musicPlaylist: [
 			{
-				title: "August 19",
+				title: "August 10th",
 				artist: "refreshed",
 				url: "https://audio.jukehost.co.uk/QR7pSQIjGxxtykjlXI8Ga9AoR7e9VYXT",
-				image: "https://i.ibb.co/SsCRnb4/aweyes.jpg"
+				image: "https://i.ibb.co/QHGfqzL/refreshed.jpg"
 			},
 			{
-				title: "August 22nd",
+				title: "August 12th",
 				artist: "synesthesia",
 				url: "https://audio.jukehost.co.uk/Azc6fN92GMLRLdnjD1BDcphMTzwoyB9U",
 				image: "https://i.ibb.co/6JLtvhP/synesthesia.jpg"
 			},
 			{
-				title: "September 2nd",
+				title: "August 14th",
 				artist: "found in translation",
 				url: "https://audio.jukehost.co.uk/4a3YY2dEg7mJC88CnWRNd2aoWQ6nq2Dd",
-				image: "https://i.pinimg.com/564x/dd/fe/c5/ddfec54d1cdcd2164f5c61e840b44d30.jpg"
+				image: "https://i.ibb.co/ChFRftC/found-in-translation.jpg"
 			},
 			{
-				title: "September 5th",
+				title: "August 16th",
 				artist: "memories on loop",
 				url: "https://audio.jukehost.co.uk/4v5cXvcK8GQGmoyHYQrGFMKlYqn8TkzK",
-				image: "https://i.pinimg.com/564x/5f/aa/a8/5faaa8ce6e08ade426e8fe9b676804e5.jpg"
+				image: "https://i.ibb.co/4Ty4vT0/memories-on-loop.jpg"
 			},
-			{
-				title: "September 9th",
-				artist: "vision",
-				url: "https://audio.jukehost.co.uk/X4Qfmdi8xiFbuE93i1eDESYRsSqqF76K",
-				image: "https://i.pinimg.com/564x/51/cc/2b/51cc2b8fc035d1977140a1246ec2c2be.jpg"
-			},
-			{
-				title: "September 9th",
-				artist: "keyboard is coming!",
-				url: "https://audio.jukehost.co.uk/S1GwU5OEo1cQXobudvBXKhEFoG8XxSxu",
-				image: "https://i.ibb.co/1fM9dzt/Screenshot-2020-07-06-at-16-15-02.png"
-			}
+			
 			
 		],
 		audioFile: ""
