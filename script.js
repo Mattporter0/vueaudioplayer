@@ -44,7 +44,7 @@ var app = new Vue({
 				title: "August 22nd",
 				artist: "synesthesia",
 				url: "https://audio.jukehost.co.uk/Azc6fN92GMLRLdnjD1BDcphMTzwoyB9U",
-				image: "https://ibb.co/S7GmQTn"
+				image: "https://i.ibb.co/6JLtvhP/synesthesia.jpg"
 			},
 			{
 				title: "September 2nd",
