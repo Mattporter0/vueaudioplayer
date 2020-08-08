@@ -153,8 +153,8 @@
   font-size: 0.75rem;
   font-weight: none;
   color: #2d1895;
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms; 
+  -webkit-transition-delay: 50ms;
+          transition-delay: 50ms; 
 }
 .audioPlayer .audioPlayerUI .albumImage {
   width: 17rem;
@@ -188,8 +188,8 @@
   outline: 0;
   text-decoration: none;
   cursor: pointer;
-  /*-webkit-transition: 0.5s;
-  transition: 0.5s; */
+  -webkit-transition: 0.5s;
+  transition: 0.5s; 
 }
 .audioPlayer .audioPlayerUI .playerButtons .button.play {
   font-size: 4rem;
