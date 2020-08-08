@@ -10,8 +10,8 @@
 }
 
 .animated {
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
 }
 
 .audioPlayer {
