@@ -101,8 +101,8 @@
 .audioPlayer .audioPlayerList .item {
   margin-bottom: 1.5rem;
   border-left: 0.1rem solid transparent;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0s;
+  transition: 0s;
 }
 .audioPlayer .audioPlayerList .item:hover {
   padding-left: 0.5rem;
