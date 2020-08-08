@@ -128,8 +128,8 @@
 .audioPlayer .audioPlayerUI {
   margin-top: 1.5rem;
   will-change: transform, filter;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  transition: 0s;
 }
 .audioPlayer .audioPlayerUI.isDisabled {
   -webkit-transform: scale(0.75) translateX(100%);
@@ -197,8 +197,7 @@
 }
 .audioPlayer .audioPlayerUI .playerButtons .button:active {
   opacity: 0.75;
-  -webkit-transform: scale(0.75);
-          transform: scale(0.75);
+ 
 }
 .audioPlayer .audioPlayerUI .playerButtons .button.isDisabled {
   color: rgba(0, 0, 0, 0.2);
