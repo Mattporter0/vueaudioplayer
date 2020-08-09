@@ -36,9 +36,9 @@ var app = new Vue({
 		musicPlaylist: [
 			{
 				title: "August 10th",
-				artist: "refreshed",
+				artist: "i can see now",
 				url: "https://audio.jukehost.co.uk/QR7pSQIjGxxtykjlXI8Ga9AoR7e9VYXT",
-				image: "https://i.ibb.co/QHGfqzL/refreshed.jpg"
+				image: "https://i.ibb.co/vkfdZVt/i-can-see-now.jpg"
 			},
 			{
 				title: "August 12th",
