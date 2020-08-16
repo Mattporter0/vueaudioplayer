@@ -214,7 +214,7 @@ function mobileCss(){
 	setTimeout(function(){
 		$(".title").css("font-size", "3rem");
 	$(".artist").css("font-size", "2.5rem");
-	},100);
+	},10);
 	
 	
 	$('.currentTime').css("font-size", "1.5rem");
