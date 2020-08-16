@@ -208,12 +208,12 @@ function mobileCss(){
 	document.getElementById("mainpid").style.fontSize = "2rem";
 	document.getElementById("h3id").style.fontSize = "2rem";
 	
-	//$(".title").css("font-size", "3rem");
-	//$(".artist").css("font-size", "2.5rem");
+	$(".title").css("font-size", "3rem");
+	$(".artist").css("font-size", "2.5rem");
 	
 	setTimeout(function(){
-		$(".title").css("font-size", "3rem");
-	$(".artist").css("font-size", "2.5rem");
+	//	$(".title").css("font-size", "3rem");
+	//$(".artist").css("font-size", "2.5rem");
 	},100);
 	
 	
