@@ -343,4 +343,10 @@ body {
   p.title{
     font-size:3rem;
   }
+  
+  .audioPlayer .audioPlayerList .item .title {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
 }
