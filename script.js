@@ -232,8 +232,7 @@ function mobileCss(){
 function checkifmobile(){
 	console.log("inside check if mobile");
 	if( isMobile.any() ){
-		$(".title").css("font-size", "3rem");
-		$(".artist").css("font-size", "2.5rem");
+		
 		mobileCss();
 	}
 }
