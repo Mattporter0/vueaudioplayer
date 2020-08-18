@@ -340,4 +340,7 @@ body {
   .artist{
     font-size:2.5rem;
   }
+  p.title{
+    font-size:3rem;
+  }
 }
