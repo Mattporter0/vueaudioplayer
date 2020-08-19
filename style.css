@@ -332,3 +332,21 @@ body {
   background: #125688;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .title{
+    font-size:3rem;
+  }
+  .artist{
+    font-size:2.5rem;
+  }
+  p.title{
+    font-size:3rem;
+  }
+  
+  .audioPlayer .audioPlayerList .item .title {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+}

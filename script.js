@@ -232,6 +232,7 @@ function mobileCss(){
 function checkifmobile(){
 	console.log("inside check if mobile");
 	if( isMobile.any() ){
+		
 		mobileCss();
 	}
 }
