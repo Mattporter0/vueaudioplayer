@@ -58,6 +58,30 @@ var app = new Vue({
 				url: "https://audio.jukehost.co.uk/kCMY14VVKmSYEEGuIiBvMge89GWdaPKp",
 				image: "https://i.ibb.co/4Ty4vT0/memories-on-loop.jpg"
 			},
+
+			title: "August 19th",
+				artist: "musical slumber party",
+				url: "https://audio.jukehost.co.uk/kCMY14VVKmSYEEGuIiBvMge89GWdaPKp",
+				image: "https://i.ibb.co/4Ty4vT0/memories-on-loop.jpg"
+			},
+
+			title: "August 21st",
+				artist: "chaos & calm",
+				url: "https://audio.jukehost.co.uk/kCMY14VVKmSYEEGuIiBvMge89GWdaPKp",
+				image: "https://i.ibb.co/12r9MvJ/chaos.jpg"
+			},
+
+			title: "August 23rd",
+				artist: "keyboard",
+				url: "https://audio.jukehost.co.uk/kCMY14VVKmSYEEGuIiBvMge89GWdaPKp",
+				image: "https://i.ibb.co/dPH15L6/keyboard.jpg"
+			},
+
+			title: "August 25th",
+				artist: "what is it with you",
+				url: "https://audio.jukehost.co.uk/kCMY14VVKmSYEEGuIiBvMge89GWdaPKp",
+				image: "https://i.ibb.co/LvZrWhh/what-is-it.jpg"
+			},
 			
 			
 		],
