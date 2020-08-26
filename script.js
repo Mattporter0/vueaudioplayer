@@ -63,7 +63,7 @@ var app = new Vue({
 			title: "August 19th",
 				artist: "musical slumber party",
 				url: "https://audio.jukehost.co.uk/EmKUK1JI6hhl1BxGVmcf5uOiGnL7tsx8",
-				image: "https://i.ibb.co/4Ty4vT0/memories-on-loop.jpg"
+				image: "https://i.ibb.co/xGVb5R6/slumber.jpg"
 			},
 			{
 			title: "August 21st",
