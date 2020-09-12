@@ -83,6 +83,35 @@ var app = new Vue({
 				url: "https://audio.jukehost.co.uk/cS1KcnimeFUmXvl4YZNjwHGaqrqKUghB",
 				image: "https://i.ibb.co/LvZrWhh/what-is-it.jpg"
 			},
+
+			{
+				title: "August 29th",
+					artist: "shades & hues",
+					url: "https://audio.jukehost.co.uk/icRYQ3OyODbE3ZGVmjB3TDarVnWNTmYn",
+					image: "https://i.ibb.co/SQzZHvS/shadeshues.jpg"
+				},
+
+				{
+					title: "September 2nd",
+						artist: "its the only way to go",
+						url: "https://audio.jukehost.co.uk/4LEeO1KxkrH4XR69SOwukxmzrqf8VHkK",
+						image: "https://i.ibb.co/df6RgYh/only-way.jpg"
+					},
+
+					{
+						title: "September 2nd",
+							artist: "i got asked the other day what freedom meant to me",
+							url: "https://audio.jukehost.co.uk/tjY7WxfSliNXp8pZJpnidRV4NRU48J2n",
+							image: "https://i.ibb.co/TvMbm3D/freedom.jpg"
+						},
+
+						{
+							title: "September 9th",
+								artist: "so vivid",
+								url: "https://audio.jukehost.co.uk/R5i2DImpY2VIvSXk0TQhBDeYzi844tUG",
+								image: "https://i.ibb.co/8d4MMFY/sovivid.jpg"
+							},
+				
 			
 			
 		],
