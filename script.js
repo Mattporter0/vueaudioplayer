@@ -111,6 +111,41 @@ var app = new Vue({
 								url: "https://audio.jukehost.co.uk/R5i2DImpY2VIvSXk0TQhBDeYzi844tUG",
 								image: "https://i.ibb.co/8d4MMFY/sovivid.jpg"
 							},
+
+							{
+								title: "September 12th",
+									artist: "vision",
+									url: "https://audio.jukehost.co.uk/3rV2bc0EHKveFkv5O1oDVEyLNgkidmB2",
+									image: "https://i.ibb.co/P4BpsdR/sunsets.jpg"
+								},
+
+								{
+									title: "September 15th",
+										artist: "parallel realities",
+										url: "https://audio.jukehost.co.uk/hgW1QIUZ4qcnUtDqrjkO5hoMwbBFhW33",
+										image: "https://i.ibb.co/Lr4qDC3/parallel.jpg"
+									},
+
+									{
+										title: "September 19th",
+											artist: "we dont know any better",
+											url: "https://audio.jukehost.co.uk/pYEqV4Q25GJWa2a4TopDib5e3KSmQ5tM",
+											image: "https://i.ibb.co/k6P60kZ/we-dont-know-any-better.jpg"
+										},
+
+										{
+											title: "September 20th",
+												artist: "let your soul",
+												url: "https://audio.jukehost.co.uk/pMkx48UxhsRV6oXDthcagPYZ8JUMe9Tn",
+												image: "https://i.ibb.co/ZT9pfyx/let-your-soul.jpg"
+											},
+
+											{
+												title: "September 23rd",
+													artist: "lonley",
+													url: "https://audio.jukehost.co.uk/BH5BQsy1RoGiYy1VSPstilJDjO2BrAwk",
+													image: "https://i.ibb.co/y5PytM6/lonley.jpg"
+												},
 				
 			
 			
