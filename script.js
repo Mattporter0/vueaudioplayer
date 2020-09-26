@@ -136,7 +136,7 @@ var app = new Vue({
 
 											{
 												title: "September 23rd",
-													artist: "loneley",
+													artist: "lonely",
 													url: "https://audio.jukehost.co.uk/BH5BQsy1RoGiYy1VSPstilJDjO2BrAwk",
 													image: "https://i.ibb.co/y5PytM6/lonley.jpg"
 												},
