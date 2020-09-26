@@ -119,12 +119,6 @@ var app = new Vue({
 									image: "https://i.ibb.co/P4BpsdR/sunsets.jpg"
 								},
 
-								{
-									title: "September 15th",
-										artist: "parallel realities",
-										url: "https://audio.jukehost.co.uk/hgW1QIUZ4qcnUtDqrjkO5hoMwbBFhW33",
-										image: "https://i.ibb.co/Lr4qDC3/parallel.jpg"
-									},
 
 									{
 										title: "September 19th",
