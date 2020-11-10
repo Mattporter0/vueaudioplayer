@@ -140,6 +140,20 @@ var app = new Vue({
 													url: "https://audio.jukehost.co.uk/BH5BQsy1RoGiYy1VSPstilJDjO2BrAwk",
 													image: "https://i.ibb.co/y5PytM6/lonley.jpg"
 												},
+
+												{
+													title: "November 1st",
+														artist: "parallel realities",
+														url: "https://audio.jukehost.co.uk/nEowsEJcI7UlSHNL5knIije5m8VkusOR",
+														image: "https://i.ibb.co/y5PytM6/lonley.jpg"
+													},
+
+													{
+														title: "November 4th",
+															artist: "wow",
+															url: "https://audio.jukehost.co.uk/srjJoiLg1nIAXeHcTfsqy7J1JGcxPI5N",
+															image: "https://i.ibb.co/rQH1KLy/wow.jpg"
+														},
 				
 			
 			
