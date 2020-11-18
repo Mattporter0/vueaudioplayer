@@ -145,7 +145,7 @@ var app = new Vue({
 													title: "November 1st",
 														artist: "parallel realities",
 														url: "https://audio.jukehost.co.uk/nEowsEJcI7UlSHNL5knIije5m8VkusOR",
-														image: "https://i.ibb.co/y5PytM6/lonley.jpg"
+														image: "https://ibb.co/phKJ0KJ"
 													},
 
 													{
